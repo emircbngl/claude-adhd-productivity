@@ -1,0 +1,30 @@
+{
+  "name": "adhd-productivity",
+  "version": "0.1.0",
+  "description": "Claude Code plugin that turns Claude into an ADHD-optimized productivity coach and externalized executive function. Shrinks every task to a single 2-minute next action, externalizes working memory to a visible FOCUS.md, manufactures motivation with INCUP (Interest/Novelty/Challenge/Urgency/Passion), body-doubles through work, makes progress visible, and never shames. Works for both everyday tasks and coding.",
+  "author": {
+    "name": "emircbngl",
+    "url": "https://github.com/emircbngl"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/emircbngl/claude-adhd-productivity",
+  "repository": "https://github.com/emircbngl/claude-adhd-productivity",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "claude",
+    "anthropic",
+    "adhd",
+    "productivity",
+    "focus",
+    "executive-function",
+    "task-management",
+    "body-doubling",
+    "incup",
+    "pomodoro",
+    "coaching",
+    "neurodivergent",
+    "anti-procrastination",
+    "next-action"
+  ]
+}

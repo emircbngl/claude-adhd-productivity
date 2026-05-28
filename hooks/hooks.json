@@ -1,0 +1,41 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "[ -f FOCUS.md ] && cat FOCUS.md || true"
+          },
+          {
+            "type": "prompt",
+            "prompt": "If FOCUS.md exists in the working directory, silently read it to restore the user's current task, the ONE next physical action, their parked ideas, and their progress/streak. If they greet you or ask what's next, lead with that single next action. If FOCUS.md does not exist, do nothing and do not mention it. Do not announce that you read it."
+          }
+        ]
+      }
+    ],
+    "PostCompact": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Context was just compacted, and hook-injected state does not survive compaction. If FOCUS.md exists in the working directory, silently re-read it now to restore the user's current task, next action, parking lot, and progress. Do not announce this."
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "[ -f FOCUS.md ] && echo 'FOCUS_REMINDER: If the focus state changed this turn, make sure FOCUS.md reflects the current NOW action, ticked-off steps, any newly parked ideas, and a one-line resumption point before ending.' || true"
+          }
+        ]
+      }
+    ]
+  }
+}

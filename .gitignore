@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Personal working state created by the plugin at runtime — never commit it
+FOCUS.md

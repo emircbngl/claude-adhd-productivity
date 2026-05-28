@@ -1,0 +1,30 @@
+{
+  "name": "adhd-productivity-marketplace",
+  "owner": {
+    "name": "emircbngl",
+    "url": "https://github.com/emircbngl"
+  },
+  "metadata": {
+    "description": "Claude Code plugin marketplace for adhd-productivity — an ADHD-style productivity & focus coaching layer for Claude Code",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "adhd-productivity",
+      "source": {
+        "source": "github",
+        "repo": "emircbngl/claude-adhd-productivity",
+        "ref": "main"
+      },
+      "description": "Claude Code plugin that turns Claude into an ADHD-optimized productivity coach and externalized executive function: one 2-minute next action at a time, working memory externalized to FOCUS.md, INCUP motivation, body-doubling, visible progress, zero shame. Works for everyday tasks and coding.",
+      "version": "0.1.0",
+      "author": {
+        "name": "emircbngl",
+        "url": "https://github.com/emircbngl"
+      },
+      "homepage": "https://github.com/emircbngl/claude-adhd-productivity",
+      "repository": "https://github.com/emircbngl/claude-adhd-productivity",
+      "license": "MIT"
+    }
+  ]
+}

@@ -82,6 +82,12 @@ The behavior model draws on widely-used ADHD productivity and coaching framework
 
 This is a behavioral coaching tool, not medical advice.
 
+## Star history
+
+<a href="https://star-history.com/#emircbngl/claude-adhd-productivity&Date">
+  <img src="https://api.star-history.com/svg?repos=emircbngl/claude-adhd-productivity&type=Date" alt="Star history chart for emircbngl/claude-adhd-productivity" width="640">
+</a>
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
